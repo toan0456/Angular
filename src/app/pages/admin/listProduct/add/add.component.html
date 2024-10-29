@@ -1,0 +1,32 @@
+<h2>Thêm sản phẩm</h2>
+<form [formGroup]="productForm" (ngSubmit)="handleSubmit()">
+    <div class="form-group mb-3">
+        <label class="form-label" for="name">Tên sản phẩm</label>
+        <input type="text" class="form-control" formControlName="name">
+    </div>
+    <div class="form-group mb-3">
+        <label class="form-label" for="imageUrl">Hình ảnh</label>
+        <input type="text" class="form-control" formControlName="imageUrl">
+    </div>
+    <div class="form-group mb-3">
+        <label class="form-label" for="price">Giá sản phẩm</label>
+        <input type="number" class="form-control" formControlName="price">
+    </div>
+    <div class="form-group mb-3">
+        <label class="form-label" for="available">Tình trạng:</label>
+        <input type="radio" formControlName="available" value="true">Còn hàng
+        <input type="radio" formControlName="available" value="false">Hết hàng
+    </div>
+    <div class="form-group mb-3">
+        <label class="form-label" for="description">Mô tả</label>
+        <textarea class="form-control" formControlName="description"></textarea>
+    </div>
+    <div class="form-group mb-3">
+        <label class="form-label" for="type">Trạng thái:</label>
+        <input type="radio" formControlName="type" value="type1">Mới
+        <input type="radio" formControlName="type" value="type2">Cũ
+    </div>
+    <div class="form-group mb-3">
+        <button class="btn btn-primary">Thêm sản phẩm</button>
+    </div>
+</form>

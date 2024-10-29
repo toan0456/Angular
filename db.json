@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop",
+      "price": 1500,
+      "description": "A high-performance laptop for all your computing needs.",
+      "imageUrl": "https://via.placeholder.com/150?text=Laptop",
+      "available": true,
+      "categoryId": "2",
+      "type": "type2"
+    },
+    {
+      "id": "2",
+      "name": "Smartphone",
+      "price": 800,
+      "description": "A latest model smartphone with all the modern features.",
+      "imageUrl": "https://via.placeholder.com/150?text=Smartphone",
+      "available": true,
+      "categoryId": "1",
+      "type": "type1"
+    },
+    {
+      "id": "3",
+      "name": "Headphones",
+      "price": 200,
+      "description": "Noise-cancelling over-ear headphones.",
+      "imageUrl": "https://via.placeholder.com/150?text=Headphones",
+      "categoryId": "2",
+      "available": false,
+      "type": "type2"
+    },
+    {
+      "id": "4",
+      "name": "Smartwatch",
+      "price": 250,
+      "description": "A smartwatch with fitness tracking features.",
+      "imageUrl": "https://via.placeholder.com/150?text=Smartwatch",
+      "categoryId": "2",
+      "available": true,
+      "type": "type1"
+    },
+    {
+      "id": "5",
+      "name": "Tablet",
+      "price": 600,
+      "description": "A lightweight tablet perfect for reading and browsing.",
+      "imageUrl": "https://via.placeholder.com/150?text=Tablet",
+      "categoryId": "1",
+      "available": true,
+      "type": "type2"
+    },
+    {
+      "id": "6",
+      "name": "Camera",
+      "price": 1200,
+      "description": "A professional-grade camera for high-quality photography.",
+      "imageUrl": "https://via.placeholder.com/150?text=Camera",
+      "categoryId": "2",
+      "available": false,
+      "type": "type2"
+    },
+    {
+      "id": "7",
+      "name": "Printer",
+      "price": 300,
+      "description": "A wireless printer with high-speed printing capabilities.",
+      "imageUrl": "https://via.placeholder.com/150?text=Printer",
+      "categoryId": "1",
+      "available": true,
+      "type": "type2"
+    },
+    {
+      "id": "8",
+      "name": "Monitor",
+      "price": 400,
+      "description": "A 4K monitor with stunning display quality.",
+      "imageUrl": "https://via.placeholder.com/150?text=Monitor",
+      "categoryId": "1",
+      "available": true,
+      "type": "type1"
+    },
+    {
+      "id": "9",
+      "name": "Keyboard",
+      "price": 100,
+      "description": "A mechanical keyboard with customizable keys.",
+      "imageUrl": "https://via.placeholder.com/150?text=Keyboard",
+      "categoryId": "2",
+      "available": true,
+      "type": "type1"
+    },
+    {
+      "id": "10",
+      "name": "Mouse",
+      "price": 50,
+      "description": "A wireless mouse with ergonomic design.",
+      "imageUrl": "https://via.placeholder.com/150?text=Mouse",
+      "categoryId": "2",
+      "available": true,
+      "type": "type1"
+    }
+  ],
+  "users": []
+}
